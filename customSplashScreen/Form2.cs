@@ -927,5 +927,7 @@ namespace customSplashScreen
 
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
+        //Code amendment
     }
 }
