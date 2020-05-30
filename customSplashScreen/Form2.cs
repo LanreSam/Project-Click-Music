@@ -803,32 +803,7 @@ namespace customSplashScreen
         //not yet completed.
         private void shuffleBtn_Click(object sender, EventArgs e)
         {
-         /*   
-            ListBox.ObjectCollection list = MediaItems.Items;
-            Random r = new Random();
-            int w = list.Count;
-            MediaItems.BeginUpdate();
-            while (w > 1)
-            {
-                w--;
-                int u = r.Next(w + 1);
-                object value = list[u];
-                list[u] = list[w];
-                list[w] = value;
-            }
-            MediaItems.EndUpdate();
-            MediaItems.Invalidate();
-
-            WMPLib.IWMPPlaylist playlist = axWindowsMediaPlayer1.playlistCollection.newPlaylist("myplaylist");
-            WMPLib.IWMPMedia media;
-            foreach (object item in MediaItems.Items)
-            {
-                media = axWindowsMediaPlayer1.newMedia((string)item);
-                playlist.appendItem(media);
-            }
-            axWindowsMediaPlayer1.currentPlaylist = playlist;
-            axWindowsMediaPlayer1.Ctlcontrols.play();
-            */
+         
         }
 
         //repeat button
